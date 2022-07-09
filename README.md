@@ -86,7 +86,7 @@ Modifying the bios is risky, please back up the bios in advance, so as not to fa
 | Bluetooth   | AX201                         | Working                           |
 | Touchpad |                             | Working                            |
 | Touch screen |                             | Working                           |
-| Sleep   | S3 is not supported and use deepIdle mode instead | working                            |
+| Sleep   | S3 is not supported and use deepIdle mode instead | Working                            |
 
 
 ## Notes on hot patching and kexts
