@@ -57,7 +57,7 @@ USB的补丁和最先的电池热补丁（现在使用ecenabler）由Grenti提�
 After nearly a year on and off, 95% of the hackintosh on Lenovo Yoga C940's  was finally realized, and now it can be used as a daily system.
 
 ## Declaration
-This configuration is completed by many people including me. This file shall not be used for commercial use, sold or charged in various forms and the right to pursue legal responsibility is reserved.
+This configuration is completed by many people including me. This file shall not be used for commercial use, sold or charged in any form and the right to pursue legal responsibility is reserved.
 
 ## Installation conditions
 See the hackintosh installation tutorial on the Internet, and I won't go into details here.
@@ -91,15 +91,15 @@ Modifying the bios is risky, please back up the bios in advance, so as not to fa
 
 ## Notes on hot patching and kexts
 
-I learned to write the hot patches for the touch screen and touchpad, special thanks to the blogger GZ Xiaobai (https://blog.gzxiaobai.cn)
+I learned to write the hot patches for the touch screen and touchpad and special thanks to the blogger GZ Xiaobai (https://blog.gzxiaobai.cn)
 
-AppleALC is a customized version for the C940. After several days of learning and searching on every forum, I finally get both speakers working(thanks to God). Special Thanks to DalianSky, Zimi (the information from ten years ago made me struggle), and Dalin's suggestion, who was the first to drive both speakers, and I patch the headphone output on this basis.
+The AppleALC is a customized version for the C940. After several days of learning and searching on every forum, I finally get both speakers working(thanks to God). Special Thanks to DalianSky, Zimi (the information from ten years ago made me struggle), and Dalin's suggestions, who was the first to drive both speakers, and I patch the headphone output on this basis.
 
-Patch for USB and the battery hot patch of the first version (using ecenabler now) by Grenti (https://gitter.im/gr4nt81_twitter)
+Patches for USB and the battery hot patch of the first version (using ecenabler now) by Grenti (https://gitter.im/gr4nt81_twitter)
 
 Thanks @anthlonreg for the hot patch tutorial. https://github.com/daliansky/OC-little/commits?author=athlonreg
 
-Note: There is a device called RP05 in DSDT, which caused the device to wake up in seconds, and it took almost two weeks for me to find the correct value (it is not the same as the one in dsdt). I have patched the customed GPRW.aml for C940.
+Note: There is a device called RP05 in DSDT, which caused the PC to wake up in seconds after going to deep idle, and it took almost two weeks for me to find the correct value (it is not the same as the one in dsdt). I have patched the customed GPRW.aml for C940.
 
 
 
