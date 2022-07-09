@@ -69,7 +69,7 @@ See the hackintosh installation tutorial on the Internet, and I won't go into de
 
 Modifying the bios is risky, please back up the bios in advance, so as not to fail to boot.
 
-3. The device information has been deleted, please add the device information in config.plist by yourself.
+3. The platform information has been deleted, please add the platform information in config.plist by yourself.
 
 ## Available functions
 | Items   |     Notes   | Status                          |
