@@ -310,6 +310,83 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x2)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgEAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL.slot-name</key>
@@ -322,6 +399,10 @@
 				<string>Mutimedia audio controller</string>
 				<key>model</key>
 				<string>Smart Sound Technology Audio Controller</string>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -370,6 +451,34 @@
 				<key>device-id</key>
 				<data>
 				U4oAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x1)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x0)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x2)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<data>
+				AgAAAA==
 				</data>
 			</dict>
 		</dict>
@@ -1182,7 +1291,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v -igfxblr igfxfw=2 -igfxmpc -igfxbls -igfxcdc -igfxdbeo alcverbs=1 alcid=94</string>
+				<string>-igfxblr igfxfw=2 -igfxmpc -igfxbls -igfxcdc -igfxdbeo alcverbs=1 alcid=94</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
